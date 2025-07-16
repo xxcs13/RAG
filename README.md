@@ -1,6 +1,6 @@
-# Enhanced RAG System
+# RAG System
 
-A sophisticated Retrieval-Augmented Generation (RAG) system that processes multiple document formats with advanced retrieval and answering capabilities.
+A Retrieval-Augmented Generation (RAG) system that processes multiple document formats with retrieval and answering capabilities.
 
 ## Features
 
