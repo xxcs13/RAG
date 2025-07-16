@@ -1,7 +1,6 @@
 # RAG System
 
-A Retrieval-Augmented Generation (RAG) system that processes multiple document formats with retrieval and answering capabilities.
-
+This system is built on the LangChain ecosystem, utilizing LangGraph for workflow orchestration and state management to implement a complete pipeline of document parsing, vector embedding, retrieval, and generation. Core technologies include: ChromaDB as the vector database providing persistent storage and similarity search; OpenAI's text-embedding-3-large model for document embedding, GPT-4o-mini for reranking, and GPT-4o for final answer generation; document processing layer using pdfplumber for PDF parsing, python-pptx for PowerPoint processing, and pandas for Excel file handling; the entire system integrates multiple AI services through LangChain's unified interface and manages complex multi-stage processing workflows through LangGraph's state graph architecture.
 ## Features
 
 ### Multi-Format Document Processing
