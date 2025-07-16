@@ -124,8 +124,8 @@ The system provides structured responses including:
 
 ```
 rag/
-├── rag.py                          # Main application
-├── requirements.txt                # Python dependencies
+├── rag.py                         # Main application
+├── requirements.txt               # Python dependencies
 ├── .env                           # Environment variables
 ├── README.md                      # This file
 ├── chroma_db_new/                 # Vector database (auto-created)
