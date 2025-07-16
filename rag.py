@@ -14,7 +14,6 @@ from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.schema.document import Document
 from langchain_core.messages import BaseMessage
-
 from langgraph.graph import StateGraph, END
 
 
